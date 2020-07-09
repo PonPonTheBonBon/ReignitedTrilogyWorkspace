@@ -83,5 +83,9 @@
 				"TVOS"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"WindowsNoEditor"
 	]
 }
