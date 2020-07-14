@@ -82,10 +82,10 @@
 				"IOS",
 				"TVOS"
 			]
+		},
+		{
+			"Name": "GLTFImporter",
+			"Enabled": true
 		}
-	],
-	"TargetPlatforms": [
-		"AllDesktop",
-		"WindowsNoEditor"
 	]
 }
