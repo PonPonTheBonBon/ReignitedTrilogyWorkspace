@@ -5,6 +5,7 @@ An example project that contains dummy blueprints and spawners for them. As time
 - [X] Swimming Volume  
 - [X] Climbing Volume  
 - [X] Whirlwind with custom camera settings  
+- [X] BP_FluidSurface (Kind of)
 
 [You can learn how to create that from here](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/Level-Making/3-Spawning-Actors-In-Custom-Levels/)
 
@@ -15,8 +16,7 @@ An example project that contains dummy blueprints and spawners for them. As time
 - [ ] BP_SwimPushOffVolume  
 - [ ] AbilityGates  
 - [ ] BP_Transporter_Generic  
-- [ ] PortalTransporter  
-- [ ] BP_FluidSurface  
+- [ ] PortalTransporter   
 # Example Maps
 
 There are two maps that show how swimming, climbing, collision surfaces work. [More information about the collision surfaces can be found in here.](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/Level-Making/Blueprint-Info/) 
