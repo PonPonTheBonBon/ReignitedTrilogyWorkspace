@@ -16,7 +16,14 @@ An example project that contains dummy blueprints and spawners for them. As time
 - [ ] BP_SwimPushOffVolume  
 - [ ] AbilityGates  
 - [ ] BP_Transporter_Generic  
-- [ ] PortalTransporter   
+
+## Portal Blueprints
+- [ ] PortalTransporterTarget_Fade_C -Arrive Locations For Levels  
+- [ ] PortalTransporterTarget_C -Start Location  
+- [ ] PortalTransporter_C -Portals  
+- [ ] 202_PortalTransporter_C - Spyro 2 Portals  
+- [ ] PortalTransporter_S2_C - Unknown  
+
 # Example Maps
 
 There are two maps that show how swimming, climbing, collision surfaces work. [More information about the collision surfaces can be found in here.](https://franklygd.github.io/Spyro-Reignited-Trilogy-Asset-Replacement/Level-Making/Blueprint-Info/) 
