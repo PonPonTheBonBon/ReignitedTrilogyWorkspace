@@ -11,6 +11,7 @@ An example project that contains dummy blueprints and spawners for them. As time
 
 # TO-DO
 
+- [ ] FalconGameState  
 - [ ] Figuring out collectibles  
 - [ ] BP_HarmfulTerrain  
 - [ ] BP_SwimPushOffVolume  
