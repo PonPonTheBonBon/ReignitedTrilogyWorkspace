@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "Phasmid",
+	"FriendlyName": "MtD",
 	"Description": "",
 	"Category": "Other",
 	"CreatedBy": "",
@@ -10,13 +10,13 @@
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
-	"CanContainContent": true,
+	"CanContainContent": false,
 	"IsBetaVersion": false,
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "Phasmid",
-			"Type": "Runtime",
+			"Name": "MtD",
+			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
 	]
