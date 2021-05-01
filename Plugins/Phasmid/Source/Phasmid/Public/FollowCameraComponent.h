@@ -71,116 +71,167 @@ public:
 	//Don't know most of the structs in here, and the ones I did are probably wrong
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite) 
 	//	Struct m_useRotVInterpSettings; 
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_traceLength;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_defaultPitchByHeight;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_traceToCeiling;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bStabilizeCameraOnSettingsChange;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<enum EReenactCamInfo> ReenactCamInfo;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bRecordCamInfo;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_tgtFPOffset;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_centerInterpMin;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_centerIdleParams;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float ActiveCamDeceleration;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float ActiveCamAcceleration;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_centerToHoldTime;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_centerActiveInterpParams;
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_centerHoldInterpParams;
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_centerInterpParams;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bEnableIdleVerticalCenter;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_idleMoveTime;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_idleRampTime;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_idleTime;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_complexTrace;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_useBothSticksAsCamInput;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_ignoreRightStickInput;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_useRawCamPos;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_collisionOffset;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_numFramesSmoothPan;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_numFramesSmooth;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_panAheadScalar;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_lookAheadScalar;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bDebugDrawLocators;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UObject* m_returnToSecondaryTargetCurve;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_secondaryTgtDistance;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_secondaryTgtMinDistance;
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	Struct m_secondaryTgtOffset;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector m_secondaryTgtOffset;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UObject* SecondaryTarget;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		UObject* Target;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrSecondTargetInterp;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrYawClamp;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrAngleV;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrInterpV;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_maxCtrDelta;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrDecelTimeMultiplier;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrDecelAngleTurnModifier;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrDecelAngle;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrSpeed;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ctrInterp;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_ceilingGmblOffset;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_colInterpOut;
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_colInterpIn;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_snapBounceThreshold;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_snapInVelocity;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bcolSnapIn;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_colClipMin;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bPullInOnCamCollisionOnly;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_camRadius;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_colRadius;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_posZInterp;
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -195,22 +246,31 @@ public:
 	//	Struct m_rotInterpV;
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_rotInterpH;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_rotSpeedV;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_rotSpeedH;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_yawClamp;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_radDefaultAtLimit;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float m_radDefault;
+
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	Struct m_gmblOffset;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector m_tgtOffset;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName CameraYAxisName;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName CameraXAxisName;
 

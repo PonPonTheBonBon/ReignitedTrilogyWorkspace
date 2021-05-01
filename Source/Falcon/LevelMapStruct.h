@@ -29,10 +29,6 @@ public:
 		, LevelPath("")
 	{}
 
-	/** The 'Name' column is the same as the XP Level */
-
-	/** XP to get to the given level from the previous level */
-
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	//	TArray<FParticleStruct> progressionMap;
 		

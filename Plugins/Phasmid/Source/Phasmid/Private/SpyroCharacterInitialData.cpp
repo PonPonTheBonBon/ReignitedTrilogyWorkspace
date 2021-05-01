@@ -1,0 +1,7 @@
+
+
+#include "SpyroCharacterInitialData.h"
+
+
+
+

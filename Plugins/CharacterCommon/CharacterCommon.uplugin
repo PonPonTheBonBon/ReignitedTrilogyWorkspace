@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "Sound",
+	"FriendlyName": "CharacterCommon",
 	"Description": "",
 	"Category": "Other",
 	"CreatedBy": "",
@@ -12,12 +12,5 @@
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "Sound",
-			"Type": "Developer",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Installed": false
 }

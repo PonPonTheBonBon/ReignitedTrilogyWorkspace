@@ -20,7 +20,7 @@ class PHASMID_API UReenactCamInfo : public UUserDefinedEnum
 };
 
 UENUM()
-enum EReenactCamInfo
+enum class EReenactCamInfo
 {
 	None,
 	WithOffset,
