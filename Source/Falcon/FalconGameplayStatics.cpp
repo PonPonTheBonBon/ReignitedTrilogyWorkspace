@@ -2,7 +2,7 @@
 
 #include "FalconGameplayStatics.h"
 
-bool UFalconGameplayStatics::AwardSkillPoint(TEnumAsByte<enum ESkillPoint> MovementMode, const UObject * WorldContextObject)
+bool UFalconGameplayStatics::AwardSkillPoint(TEnumAsByte<enum ESkillPoint> pt, const UObject * WorldContextObject)
 {
 	return false;
 }
@@ -83,6 +83,36 @@ bool UFalconGameplayStatics::GetCutsceneSubtitlesEnabled(const UObject * WorldCo
 	return false;
 }
 
+bool UFalconGameplayStatics::GetDragonCollected(FString dragonName, FString Level, const UObject * WorldContextObject)
+{
+	return false;
+}
+
+UObject * UFalconGameplayStatics::GetFalconGameState(const UObject * WorldContextObject)
+{
+	return nullptr;
+}
+
+UObject * UFalconGameplayStatics::GetFalconSaveComponent(const UObject * WorldContextObject)
+{
+	return nullptr;
+}
+
+UObject * UFalconGameplayStatics::GetFirstLocalPlayerController(const UObject * WorldContextObject)
+{
+	return nullptr;
+}
+
+int UFalconGameplayStatics::GetGameIndex(const UObject * WorldContextObject)
+{
+	return 0;
+}
+
+int UFalconGameplayStatics::GetGameInventoryTotalForType(EInventoryType inventoryType, int gameIndex, const UObject * WorldContextObject)
+{
+	return 0;
+}
+
 void UFalconGameplayStatics::SetGameIndex(int gameIndex, const UObject * WorldContextObject)
 {
 }
@@ -95,4 +125,16 @@ bool UFalconGameplayStatics::PauseGame(bool bPauseAudio, const UObject * WorldCo
 float UFalconGameplayStatics::GetTimePlayedForGame(const UObject * WorldContextObject)
 {
 	return 0.0f;
+}
+
+void UFalconGameplayStatics::StartTimePlayedClock(const UObject * WorldContextObject)
+{
+}
+
+void UFalconGameplayStatics::StopTimePlayedClock(const UObject * WorldContextObject)
+{
+}
+
+void UFalconGameplayStatics::UnpauseGame(bool & UnpauseGame, const UObject * WorldContextObject)
+{
 }

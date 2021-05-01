@@ -79,3 +79,15 @@ DerivedDataCache/*
 #Ignore Infinate's stuff
 Content/DebugWidget/*
 Content/TestFlower/*
+
+# Wwise
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/SFX/*.mp3
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/SFX/*.wav
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/SFX/*.akd
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/Voices/*.mp3
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/Voices/*.wav
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/Voices/*.akd
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/*.mp3
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/*.wav
+/ReignitedTrilogyWorkspace_WwiseProject/Originals/*.akd
+/ReignitedTrilogyWorkspace_WwiseProject/.cache/

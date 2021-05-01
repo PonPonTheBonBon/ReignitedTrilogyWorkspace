@@ -17,7 +17,7 @@ UCLASS()
 class FALCON_API UFalconGameplayStatics : public UGameplayStatics
 {
 	GENERATED_BODY()
-
+		
 		UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
 		static bool AwardSkillPoint(TEnumAsByte<enum ESkillPoint> pt, const UObject* WorldContextObject);
 
@@ -114,6 +114,6 @@ class FALCON_API UFalconGameplayStatics : public UGameplayStatics
 
 		UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
 		static void UnpauseGame(bool& UnpauseGame, const UObject* WorldContextObject);
-	
+
 };
 
