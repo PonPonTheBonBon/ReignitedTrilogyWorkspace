@@ -1,48 +1,92 @@
-##InventoryManagerInterface:
+Enums from Reignited, list might be incomplete.
 
 
 
-item type  - used Loot Type Enum probably incorrect
-
-data list - used generic data table, definitely incorrect
-
-
-
-
-
-##AbilityGate_Base:
-
-
-
-NotifyOtherGates - Used Actor probably incorrect
-
-MissionReporter.Reporter - Used Actor might be incorrect
-
-
-
-##BP_LevelActor_Base
-
-PhasmidCull - no idea
-
-State_Death - no idea
-
-State_Default - no idea
-
-
-
-##HudFooterInterface
-
-hud footer - no idea
-
-
-
-##HudQuestionMenuInterface
-
-controller - probably incorrect
-
-
-
-##hud_function_library
-
-set number digits.Numbers
-set number digits.the numbers
+Enum Phasmid.EImageSize
+Enum Phasmid.EProjectileImpactType
+Enum Phasmid.EProjectileRotationType
+Enum Phasmid.EProjectileLobType
+Enum Phasmid.EProjectileOrientation
+Enum Phasmid.EProjectileType
+Enum Phasmid.ENotificationType
+Enum Phasmid.ENotificationPriority
+Enum Phasmid.ESubObjectiveType
+Enum Phasmid.EPhasmidAIOrdersStatus
+Enum Phasmid.EPhasmidPathFlags
+Enum Phasmid.ECollisionRegionShape
+Enum Phasmid.ECollisionRegionFilter
+Enum Phasmid.EProcChainAxis
+Enum Phasmid.ETriggerVolumeCommand
+Enum Phasmid.EInitialOrderType
+Enum Phasmid.EPatrolType
+Enum Phasmid.EEncounterType
+Enum Phasmid.EFalconDialogueRowResult
+Enum Phasmid.EEnemyDebugDrawOverrideType
+Enum Phasmid.EPhasmidActorFilterMatchType
+Enum Phasmid.EPhasmidWaveSpawnerState
+Enum Phasmid.EPhasmidWaveSpawnerCommand
+Enum Phasmid.EPhasmidWaveSpawnPattern
+Enum Phasmid.ESplineSnapType
+Enum Phasmid.EFollowSplineType
+Enum Phasmid.EPhasmidSplineTraversalMode
+Enum Phasmid.EPhasmidCustomMovementMode
+Enum Phasmid.EPhasmidFootEnum
+Enum Phasmid.EKeybindingEntry
+Enum Phasmid.EPhasmidAction
+Enum Phasmid.ENavAreaFlag
+Enum Phasmid.EFalconCausedDamageType
+Enum Phasmid.EFalconLaunchEndBlendType
+Enum Phasmid.EFalconTargetType
+Enum Phasmid.EFalconTriggerType
+Enum Phasmid.EFalconFacingMode
+Enum Phasmid.EFalconMovementMode
+Enum Phasmid.ECollisionAdjustType
+Enum Phasmid.EAutoCenteringState
+Enum Phasmid.EPhasmidRichTextBlockSegmentType
+Enum Falcon.EPresence
+Enum Falcon.EAchievement
+Enum Falcon.ELocomotionAxis
+Enum Falcon.ERK4SpringAxis
+Enum Falcon.EAutoGreet
+Enum Falcon.ESpawnOrder
+Enum Falcon.ESpawnPointPolicy
+Enum Falcon.EGraphicsOptionPreset
+Enum Falcon.EGraphicsQuality
+Enum Falcon.EFalconHudWidgetPosition
+Enum Falcon.EFalconScreenLayerType
+Enum Falcon.EFalconScreenType
+Enum Falcon.EFalconTimeBarType
+Enum Falcon.EFalconTimeBarPlacement
+Enum Falcon.EFalconPhysMaterialType
+Enum Falcon.EFanfareType
+Enum Falcon.EFlightLevelResult
+Enum Falcon.EFlightLevelTargetType
+Enum Falcon.EGateState
+Enum Falcon.EHudGemCountDisplayState
+Enum Falcon.EHudHealthCountState
+Enum Falcon.ETimerBarType
+Enum Falcon.ELocMoveDir
+Enum Falcon.EPlayerMoveMode
+Enum Falcon.EQuestAction
+Enum Falcon.ETargetFocus
+Enum Falcon.ETargetField
+Enum Falcon.EPersistence
+Enum Falcon.ESkateBoardRaceType
+Enum Falcon.ESkillPoint
+Enum Falcon.ESP3_BoxerBlock
+Enum Falcon.ESP3CharAbility
+Enum Falcon.ESP3_CustomMovementMode
+Enum Falcon.ESP3_ProjColType
+Enum Falcon.ESP3_ProjType
+Enum Falcon.ESP3SparxEnemyStageSeqType
+Enum Falcon.ESP3SparxEnemyStageRotType
+Enum Falcon.ESP3SparxEnemyStageMoveType
+Enum Falcon.ESparxKeyType
+Enum Falcon.ECollectionSequenceState
+Enum Falcon.EManagerState
+Enum Falcon.ELevelTransportState
+Enum Falcon.ELevelRecordType
+Enum Falcon.ELevelTransportType
+Enum Falcon.ETrickStatus
+Enum Falcon.EPlayerVisibility
+Enum Falcon.EIdWorld
