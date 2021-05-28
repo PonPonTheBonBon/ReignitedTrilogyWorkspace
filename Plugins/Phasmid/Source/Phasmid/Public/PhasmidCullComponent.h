@@ -7,7 +7,7 @@
 #include "PhasmidCullComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Phasmid), meta=(BlueprintSpawnableComponent) )
 class PHASMID_API UPhasmidCullComponent : public USceneComponent
 {
 	GENERATED_BODY()
