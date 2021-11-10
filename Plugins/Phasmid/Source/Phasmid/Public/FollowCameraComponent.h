@@ -131,6 +131,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_useBothSticksAsCamInput;
 
+	/** Disable Camera Rotation Input. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool m_ignoreRightStickInput;
 

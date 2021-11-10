@@ -2,15 +2,15 @@
 
 using UnrealBuildTool;
 
-public class Phasmid : ModuleRules
+public class CharacterCommon : ModuleRules
 {
-	public Phasmid(ReadOnlyTargetRules Target) : base(Target)
+	public CharacterCommon(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"Phasmid/Public"
+				"CharacterCommon/Public"
 				// ... add public include paths required here ...
 			}
 			);
@@ -18,7 +18,7 @@ public class Phasmid : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				"Phasmid/Private",
+				"CharacterCommon/Private",
 				// ... add other private include paths required here ...
 			}
 			);
@@ -28,9 +28,6 @@ public class Phasmid : ModuleRules
 			new string[]
 			{
 				"Core",
-				"GameplayAbilities", 
-				"GameplayTags", 
-				"GameplayTasks"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -43,9 +40,6 @@ public class Phasmid : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"GameplayAbilities",
-				"GameplayTags", 
-				"GameplayTasks"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

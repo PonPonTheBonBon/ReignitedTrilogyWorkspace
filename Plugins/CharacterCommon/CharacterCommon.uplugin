@@ -12,5 +12,12 @@
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CharacterCommon",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
 }
