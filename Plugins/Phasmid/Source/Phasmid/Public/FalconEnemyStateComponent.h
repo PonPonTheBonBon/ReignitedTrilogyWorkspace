@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/SceneComponent.h"
+#include "Engine/TargetPoint.h"
 #include "FalconEnemyStateComponent.generated.h"
 
 
@@ -35,7 +36,7 @@ public:
 	static void BP_SetTarget(UObject* Actor);	
 	
 	UFUNCTION(BlueprintCallable)
-	static void BP_SetWaypoints(UObject* Points);	
+	static void BP_SetWaypoints(ATargetPoint* Points);
 	
 	UFUNCTION(BlueprintCallable)
 	static void BP_UpdateWanderParams(float TurnRate, float OuterRadius, float Delay);
@@ -55,7 +56,7 @@ public:
 	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnActorSpawned
 	
 	
-	StructProperty Phasmid.FalconEnemyStateComponent.State Probably related to FalconEverythingTrigger??? maybe
+	StructProperty State  //Struct uses FalconEverythingTrigger
 	*/
 
 protected:

@@ -39,7 +39,7 @@ void UFalconEnemyStateComponent::BP_SetTarget(UObject * Actor)
 {
 }
 
-void UFalconEnemyStateComponent::BP_SetWaypoints(UObject * Points)
+void UFalconEnemyStateComponent::BP_SetWaypoints(ATargetPoint * Points)
 {
 }
 
